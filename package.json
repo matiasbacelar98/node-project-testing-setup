@@ -6,7 +6,9 @@
   "scripts": {
     "compiler": "tsc --watch",
     "server": "nodemon ./dist/app.js",
-    "test": "jest --detectOpenHandles --watch"
+    "test": "jest --detectOpenHandles --watch",
+    "ci:test": "jest --detectOpenHandles --watch",
+    "ci:build": "tsc"
   },
   "keywords": [],
   "author": "",
