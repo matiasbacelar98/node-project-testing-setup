@@ -4,3 +4,4 @@
     * Eslint
     * Prettier
     * Jest & Supertest
+    * Github actions
