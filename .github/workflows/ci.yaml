@@ -23,11 +23,6 @@ jobs:
           mongodb-version: 4.4
           mongodb-port: 27017
 
-      - name: Create env file
-        run: |
-          touch .env
-          echo MONGO_LOCAL_URL=mongodb://localhost:27017
-
       - name: Install dependencies
         run: npm ci
 
