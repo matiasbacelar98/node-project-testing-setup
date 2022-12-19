@@ -29,7 +29,7 @@ jobs:
       - name: Run tests
         run: npm run ci:test
         env:
-          MONGO_LOCAL_URL: mongodb://localhost:27017
+          MONGO_LOCAL_URL: ${{ secrets.MONGO_LOCAL_URL }}
 
       - name: Generate output
         run: npm run ci:build
